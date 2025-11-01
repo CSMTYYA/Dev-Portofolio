@@ -1,0 +1,72 @@
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+    margin:0;
+    font-family: Inter, ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: linear-gradient(180deg,#071026 0%, #0f1724 100%);
+    color:#e6eef8;
+    line-height:1.45;
+    padding:2rem 1rem;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+.container{
+    max-width:980px;
+    margin:0 auto;
+    padding:0 1rem;
+}
+
+main{flex:1}
+
+.hero{
+    padding:3.5rem 0 2.5rem;
+    text-align:center
+}
+
+.hero h1{
+    font-size:clamp(1.6rem,3.5vw,2.6rem);
+    margin:0 0 .5rem
+}
+
+.lead{
+    color:#94a3b8;
+    font-weight:500;
+    margin:0 0 .5rem
+}
+
+.age{
+    color:#94a3b8;
+    margin:.25rem 0 0
+}
+
+section h2{font-size:1.25rem;margin:0 0 .75rem}
+section p{color:#94a3b8;margin:0 0 .75rem}
+
+.project-list{display:grid;grid-template-columns:repeat(1,1fr);gap:1.25rem}
+.project{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border:1px solid rgba(255,255,255,0.04);padding:1rem;border-radius:8px}
+.project h3{margin:.25rem 0 .5rem;font-size:1rem}
+.project p{color:#94a3b8;margin:.25rem 0}
+.project-link{color:#7c3aed;text-decoration:none;font-weight:600}
+.project-link:hover{text-decoration:underline}
+
+.contact ul{list-style:none;padding:0;margin:0}
+.contact li{margin:.4rem 0;color:#94a3b8}
+.contact a{color:#e6eef8}
+
+.site-footer{
+    margin-top:2.5rem;
+    padding:1rem 0;
+    color:#94a3b8;
+    text-align:center;
+    font-size:.9rem;
+    border-top:1px solid rgba(255,255,255,0.04);
+    width:100%;
+    background:transparent;
+}
+
+.site-footer .contact{margin-bottom:.5rem}
+.site-footer .contact ul{display:flex;flex-direction:row;gap:1rem;justify-content:center;align-items:center;padding:0;margin:0;list-style:none}
+.site-footer .contact li{margin:0;color:#94a3b8}
+.site-footer .contact a{color:#e6eef8;text-decoration:none}
