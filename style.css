@@ -5,7 +5,7 @@ html,body{height:100%}
 body{
     margin:0;
     font-family: Inter, ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    background: linear-gradient(90deg,#020c24 0%, #29303a 100%);
+    background: linear-gradient(90deg,#000000 0%, #ffffff 900%);
     color:#ffffff;
     line-height:1.45;
     padding:2rem 1rem;
@@ -42,26 +42,21 @@ main{flex:1}
 }
 
 .lead{
-    color:#758294;
+    color:#8b8a8a;
     font-weight:500;
     margin:0 0 .5rem
 }
 
-.age{
-    color:#94a3b8;
-    margin:.25rem 0 0
-}
-
 .githublink{
-    color:#4f5a66
+    color:#6d6d6d
 }
 
 .pythonlink{
-    color:#4f5a66
+    color:#6d6d6d
 }
 
 .course-link{
-    color:#4f5a66
+    color:#6d6d6d
 }
 
 section h2{
@@ -70,7 +65,7 @@ section h2{
 }
 
 section p{
-    color:#94a3b8;
+    color:#7c7c7d;
     margin:0 0 .75rem
 }
 
@@ -82,8 +77,8 @@ section p{
 }
 
 .card{
-    background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
-    border:1px solid rgba(255,255,255,0.04);
+    background:linear-gradient(300deg, rgba(1, 10, 57, 0.02), transparent);
+    border:3px solid rgba(151, 151, 151, 0.293);
     padding:1rem;
     border-radius:8px
 }
@@ -94,7 +89,7 @@ section p{
 }
 
 .card p{
-    color:#505f72;
+    color:#6d6d6d;
     margin:.25rem 0
 }
 
@@ -106,17 +101,17 @@ section p{
 
 .contact li{
     margin:.4rem 0;
-    color:#94a3b8
+    color:#707070
 }
 
 .contact a{
-    color:#e6eef8
+    color:#52575e
 }
 
 .site-footer{
     margin-top:2.5rem;
     padding:1rem 0;
-    color:#94a3b8;
+    color:#5c5c5c;
     text-align:center;
     font-size:.9rem;
   
@@ -139,9 +134,9 @@ section p{
 }
 .site-footer .contact li{
     margin:0;
-    color:#325381
+    color:#5c5c5c
 }
 .site-footer .contact a{
-    color:#e6eef8;
+    color:#ffffff;
     text-decoration:none
 }
