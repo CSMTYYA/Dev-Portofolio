@@ -90,6 +90,13 @@ section p{
     font-family:'Space Mono', monospace;
 }
 
+.card-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+
+}
+
 .card p{
     color:#6d6d6d;
     margin:.25rem 0
